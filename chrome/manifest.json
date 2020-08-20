@@ -1,11 +1,11 @@
 {
-  "browser_specific_settings": {
-    "gecko": {
-      "strict_min_version": "58.0a1"
-    }
-  },
   "background": {
-      "scripts": ["background.js"]
+      "scripts": ["background.js"],
+      "persistent": false
+  },
+  "icons": {
+    "48": "icon.svg",
+    "96": "icon.svg"
   },
   "description": "An extension that automatically closes tabs created by zoom",
   "homepage_url": "https://github.com/pchynoweth/autoclose-zoom-tabs-extension",

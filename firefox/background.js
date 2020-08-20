@@ -6,6 +6,7 @@ browser.tabs.onUpdated.addListener(
   }
 , {
   urls: [
-    'https://zoom.us/j/*'
+    'https://zoom.us/j/*',
+    'https://*.zoom.us/j/*'
   ]
 });
